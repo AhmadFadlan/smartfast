@@ -1,0 +1,29 @@
+{
+    "last_remote_check": 1570529122,
+    "hooks": {
+        "wordpress-import": {
+            "name": "wordpress-import",
+            "description": "This hook will allow you to import your wordpress posts, pages, categories, and users from the WP XML export file.",
+            "version": "v1.0.3",
+            "enabled": false
+        },
+        "extended-bread-form-fields": {
+            "name": "extended-bread-form-fields",
+            "description": "Extended FormFields hook interface to Voyager BREAD",
+            "version": "v0.2-beta",
+            "enabled": true
+        },
+        "json-mini-bread": {
+            "name": "json-mini-bread",
+            "description": "Creates a mini BREAD nested inside another model.",
+            "version": "dev-master",
+            "enabled": false
+        },
+        "test-hook": {
+            "name": "test-hook",
+            "description": "This is my first hook.",
+            "version": "v1.0.0",
+            "enabled": false
+        }
+    }
+}
